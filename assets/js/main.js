@@ -9,3 +9,10 @@ class Animal {
     console.log(`${this.name} makes a noise.`);
   }
 }
+
+let felix = new Animal("Felix");
+let snoop = new Animal("Snoop");
+felix.sayHi();
+snoop.sayHi();
+felix.speak();
+snoop.speak();
