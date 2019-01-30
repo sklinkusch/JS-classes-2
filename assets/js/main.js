@@ -3,6 +3,9 @@ class Animal {
     this.name = name;
   }
   sayHi() {
-    console.log(`Hello, I'm ${this.name}`);
+    console.log(`Hello, I'm ${this.name}.`);
+  }
+  speak() {
+    console.log(`${this.name} makes a noise.`);
   }
 }
