@@ -10,8 +10,17 @@ class Animal {
   }
 }
 
+class Dog extends Animal {
+  constructor(name) {
+    super(name);
+  }
+  speak() {
+    console.log(`${this.name} barks.`);
+  }
+}
+
 let felix = new Animal("Felix");
-let snoop = new Animal("Snoop");
+let snoop = new Dog("Snoop");
 felix.sayHi();
 snoop.sayHi();
 felix.speak();
